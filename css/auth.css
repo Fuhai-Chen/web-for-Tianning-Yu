@@ -58,9 +58,9 @@ body {
 }
 
 .lowin a {
-	color: var(--color-primary);
+	color: #afd7fc;
 	text-decoration: none;
-	border-bottom: 1px dashed var(--color-semidark);
+	border-bottom: 1px dashed #afd7fc;
 	margin-top: -3px;
 	padding-bottom: 2px;
 }
@@ -128,7 +128,7 @@ body {
 }
 
 .lowin .lowin-box p {
-	color: var(--color-semidark);
+	color: #afd7fc;
 	font-weight: 700;
 	margin-bottom: 20px;
 	text-align: center;
@@ -142,7 +142,7 @@ body {
 	margin-bottom: 5px;
 	display: inline-block;
 	width: 100%;
-	color: var(--color-semidark);
+	color: #afd7fc;
 	font-weight: 700;
 }
 
@@ -167,9 +167,9 @@ body {
 	color: #fff;
 	padding: 15px;
 	border-radius: 3px;
-	background-color: var(--color-primary);
-	-webkit-box-shadow: 0 2px 7px var(--color-semidark);
-	        box-shadow: 0 2px 7px var(--color-semidark);
+	background-color: #afd7fc;
+	-webkit-box-shadow: 0 2px 7px #afd7fc;
+	        box-shadow: 0 2px 7px #afd7fc;
 	font-weight: 700;
 	outline: 0;
 	cursor: pointer;
@@ -192,14 +192,14 @@ body {
 	padding: 10px;
 	font-weight: 700;
 	margin-top: 20px;
-	color: var(--color-semidark);
+	color: #afd7fc;
 }
 
 .lowin .lowin-footer {
 	text-align: center;
 	margin: 30px 0;
 	font-size: 12px;
-	color: var(--color-semidark);
+	color: #afd7fc;
 	font-weight: 700;
 }
 

@@ -1,0 +1,274 @@
+body,td,th {font-family: Verdana, Arial, Helvetica, sans-serif;font-size: 12px;color: #1d1007; line-height:24px}
+/*p{text-indent: 1cm}*/
+a{
+	 color:inherit;
+	 text-decoration: none;//去掉下划线
+}
+h1, h2 ,h3{
+    padding: 0 10%;
+    margin: 0;
+    color: #fff;
+    font-weight: normal;
+}
+li{
+	list-style-type: none;
+}
+.top{
+	width: 85%;
+	margin: 0 auto;
+	height: 40px;
+}
+.top_nave{
+	/*width: 100%;*/
+	/*height: 40px;*/
+}
+.top_logo{
+	width: 40%;
+	float: left;
+}
+.top_nave li{
+	float: left;
+	margin-left: 30px;
+}
+.top_btn{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 2px;
+}
+.head{
+	padding: 10% 0 70px 0;
+	width: 100%;
+	height: 230px;
+    background: #afd7fc 50% 0 url(../images/headbg.jpg) no-repeat;
+    background-attachment: fixed, fixed, fixed, scroll;
+    background-position: 0 0, 0 0, -5px -25px, 0 50%;
+    background-repeat: repeat, repeat, repeat, no-repeat;
+    background-size: auto, auto, auto, cover;
+    text-align: center;
+}
+.text_p{
+	width: 80%;
+	color: #ffffff;
+	margin:0 auto;
+	padding: 0 0 40px 0;;
+}
+.main{
+	width: 90%;
+	margin: 0 auto;
+	padding: 5%
+}
+.main_item{
+	width: 95%;
+	margin: 0 auto;
+	border: 1px solid #f2f2f2;
+}
+.item_img{
+	text-align: center;
+	width: 20%;
+}
+.item_center{
+	width: 60%;
+}
+.item_center li{
+	margin-top: 1em;
+}
+.item_right{
+	width: 18%;
+	text-align: right;
+}
+.item_rec{
+	border: 1px solid #e73c2d;
+    display: inline-block;
+    border-radius: 4px;
+    color: #e73c2d;
+}
+.item_vip{
+	border: 1px solid #2f5db3;
+    display: inline-block;
+    border-radius: 4px;
+    color: #2f5db3;
+}
+.right_shop{
+	display: block;
+	border: 1px solid #e73c2d;
+	width: 40%;
+	text-align: center;
+	color: #e73c2d;
+}
+.right_time{
+	width: 40%;
+	text-align: center;
+	color: #c4c4c4;
+}
+.main_item:hover{
+	background-color: #f4ead5;
+}
+.footer{
+	position: fixed;
+	width: 50px;
+	height: 30px;
+	border: 1px solid;
+	text-align: center;
+	top: 100px;
+	right: 100px;
+}
+.back-to {  
+    bottom: 35px;  
+    overflow: hidden;  
+    position: fixed;  
+    right: 10px;  
+    width: 110px;  
+    z-index: 999;  
+}  
+.back-to.back-top {  
+    background-image: url("../images/top-arrow.png") no-repeat scroll 0 0 transparent;  
+    display: block;  
+    float: right;  
+    width: 50px;  
+    height: 50px;  
+    margin-left: 10px;  
+    outline: 0 none;  
+    text-indent: -9999em;  
+}  
+.back-to.back-top:hover {  
+    background-position: -50px 0  
+}  
+.select {
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  padding: 0;
+  overflow: hidden;
+  background: #fff;
+  color: #555;
+  border: 1px solid #aaa;
+  text-shadow: none;
+  -moz-border-radius: 4px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -moz-transition: box-shadow 0.25s ease;
+  -o-transition: box-shadow 0.25s ease;
+  -webkit-transition: box-shadow 0.25s ease;
+  transition: box-shadow 0.25s ease;  
+}
+.select:hover {
+  -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.15);
+}
+.select:before {
+  position: absolute;
+  top: 0.5em;
+  right: 0.5em;
+  pointer-events: none;
+}
+.select select {
+  cursor: pointer;
+  padding: 0.5em;
+  padding-right: 2em;
+  width: 130%;
+  border: none;
+  background: transparent;
+  background-image: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  text-indent: 0.01px;
+  text-overflow: '';
+  width: 160% \9;
+}
+.select select:focus {
+  outline: none;
+}
+.select:before {
+  font-family: "icons";
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon--down:before, .select:before {
+  content: "\e600";
+}
+@font-face {
+  font-family: 'icons';
+  src: url(data:application/font-woff;charset=utf-8;base64,d09GRk9UVE8AAARgAAoAAAAABBgAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAABDRkYgAAAA9AAAANgAAADYZbVvCE9TLzIAAAHMAAAAYAAAAGAIIvy2Y21hcAAAAiwAAABMAAAATBpVzFdnYXNwAAACeAAAAAgAAAAIAAAAEGhlYWQAAAKAAAAANgAAADYAl8viaGhlYQAAArgAAAAkAAAAJANuAeZobXR4AAAC3AAAABQAAAAUAwAAdG1heHAAAALwAAAABgAAAAYABVAAbmFtZQAAAvgAAAFFAAABRVcZpu5wb3N0AAAEQAAAACAAAAAgAAMAAAEABAQAAQEBCGljb21vb24AAQIAAQA6+BwC+BsD+BgEHgoAGVP/i4seCgAZU/+LiwwHi2v4lPh0BR0AAAB2Dx0AAAB7ER0AAAAJHQAAAM8SAAYBAQgPERMWG2ljb21vb25pY29tb29udTB1MXUyMHVFNjAwAAACAYkAAwAFAQEEBwoNTPyUDvyUDvyUDvuUDvgg958VgYD7AiOLi4aFg4iEi4SLg46GkYuL+wLzgZaAloqel5eWlpqMmX8I7yvv6wWZl5qKloCXf4p4gIAIDviUFPiUFYsMCgADAgABkAAFAAABTAFmAAAARwFMAWYAAAD1ABkAhAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAAAAAAAAEAAAOYAAeD/4P/gAeAAIAAAAAEAAAAAAAAAAAAAACAAAAAAAAIAAAADAAAAFAADAAEAAAAUAAQAOAAAAAoACAACAAIAAQAg5gD//f//AAAAAAAg5gD//f//AAH/4xoEAAMAAQAAAAAAAAAAAAAAAQAB//8ADwABAAAAAQAAss1nQF8PPPUACwIAAAAAAM/2xdgAAAAAz/bF2AAAAAABjAE1AAAACAACAAAAAAAAAAEAAAHg/+AAAAIAAAAAAAGMAAEAAAAAAAAAAAAAAAAAAAAFAAAAAAAAAAAAAAAAAQAAAAIAAHQAAFAAAAUAAAAAAA4ArgABAAAAAAABAA4AAAABAAAAAAACAA4ARwABAAAAAAADAA4AJAABAAAAAAAEAA4AVQABAAAAAAAFABYADgABAAAAAAAGAAcAMgABAAAAAAAKADQAYwADAAEECQABAA4AAAADAAEECQACAA4ARwADAAEECQADAA4AJAADAAEECQAEAA4AVQADAAEECQAFABYADgADAAEECQAGAA4AOQADAAEECQAKADQAYwBpAGMAbwBtAG8AbwBuAFYAZQByAHMAaQBvAG4AIAAxAC4AMABpAGMAbwBtAG8AbwBuaWNvbW9vbgBpAGMAbwBtAG8AbwBuAFIAZQBnAHUAbABhAHIAaQBjAG8AbQBvAG8AbgBGAG8AbgB0ACAAZwBlAG4AZQByAGEAdABlAGQAIABiAHkAIABJAGMAbwBNAG8AbwBuAC4AAAAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==) format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*详情页*/
+.de_top{
+	/*height: 100px;*/
+	background-color: #afd7fc;
+}
+.de_head{
+	width: 75%;
+	margin: 0 auto;
+}
+.top_left{
+	width: 10%
+}
+.top_center{
+	width: 80%;
+	text-align: center;
+	vertical-align: top;
+}
+.de_head{
+	width: 80%;
+	margin:0 auto;
+}
+.head_tx{
+	width: 10%;
+	border:1px dashed #000
+}
+.head_xx{
+	width: 50%;
+}
+.head_tel{
+	width: 30%;
+}
+.xx_car{
+	color: #ffffff;
+	background-color: #afd7fc;
+	padding: 3px;
+	width: 20%;
+	text-align: center;
+}
+.tel_hp{
+	border: 1px solid #f2f2f2;
+    width: 40%;
+    text-align: center;
+}
+.de_main{
+	width: 90%;
+	margin: 0 auto;
+	/*padding: 15px 0px 0 10px;*/
+}
+.de_main li{
+	padding: 2%;
+	border-bottom: 1px solid #f2f2f2;
+}
+.de_main li b{
+	display: inline-block;
+	font-size: 15px;
+}
+.main_btn{
+	display: block;
+    width: 130px;
+    text-align: center;
+    background-color: #afd7fc;
+    color: #ffffff;
+    margin: 0 auto;
+    padding: 5px;
+}
+.de_footer{
+	padding: 0 0 20px 0;
+}
